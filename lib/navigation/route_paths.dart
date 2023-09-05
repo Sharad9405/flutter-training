@@ -10,4 +10,11 @@ class RoutePaths {
   static const String constructorExample = '/constructorExample';
   static const String functionsWithCallback = '/functionsWithCallback';
   static const String dynamicListview = '/dynamicListview';
+  static const String loginForm = '/loginForm';
+  static const String dashboard = '/dashboard';
+  static const String containerStyling = '/containerStyling';
+  static const String dateFormatting = '/dateFormatting';
+  static const String appBarExample = '/appBarExample';
+  static const String chatWidget = '/chatWidget';
+  static const String orientationExample = '/orientationExample';
 }

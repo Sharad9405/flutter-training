@@ -1,4 +1,4 @@
-import 'package:chetu_training/form.dart';
+import 'package:chetu_training/misc/form.dart';
 import 'package:chetu_training/misc/widget/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 

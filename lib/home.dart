@@ -17,8 +17,8 @@ class Home extends StatelessWidget {
         ),
       ),
       body: ListView(
+        padding: const EdgeInsets.only(bottom: 50),
         children: [
-
           Container(
             color: Colors.amberAccent.withOpacity(0.2),
             child: ListTile(
@@ -203,6 +203,123 @@ class Home extends StatelessWidget {
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
                 '10. Dynamic Listview',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.loginForm),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '11. Login Form',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.containerStyling),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '12. Container Styling',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.dateFormatting),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '13. Date Formatting',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.appBarExample),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '14. AppBar Example',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.chatWidget),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '15. Chat Widget',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.orientationExample),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '15. Orientation Builder Example',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
