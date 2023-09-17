@@ -17,4 +17,17 @@ class RoutePaths {
   static const String appBarExample = '/appBarExample';
   static const String chatWidget = '/chatWidget';
   static const String orientationExample = '/orientationExample';
+  static const String widgetLifecycle = '/widgetLifecycle';
+  static const String gridviewExample = '/gridviewExample';
+  static const String linearGradient = '/linearGradient';
+  static const String bottomNavBar = '/bottomNavBar';
+  static const String navigationBar = '/navigationBar';
+  static const String navigationDrawer = '/navigationDrawer';
+  static const String searchBar = '/searchBar';
+  static const String httpExample = '/httpExample';
+  static const String userLocation = '/userLocation';
+  static const String imagePicker = '/imagePicker';
+  static const String googleMap = '/googleMap';
+  static const String flutterAnimation = '/flutterAnimation';
+  static const String flutterAnimation2 = '/flutterAnimation2';
 }

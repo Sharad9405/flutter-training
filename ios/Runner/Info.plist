@@ -47,5 +47,34 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+    <dict><key>NSAllowsArbitraryLoads</key><true/>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>App_Name requires user’s location for better user experience.</string>
+
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>App_Name requires user’s location for better user experience.</string>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App_Name requires user’s location for better user experience.</string>
+
+
+    </dict>
+
+         <key>NSLocationWhenInUseUsageDescription</key>
+         <string>We need your location for a better user experience.</string>
+
+         <key>NSLocationAlwaysUsageDescription</key>
+         <string>We require your location for advanced features.</string>
+
+         <key>NSCameraUsageDescription</key>
+         <string>camera description.</string>
+
+         <key>NSPhotoLibraryUsageDescription</key>
+         <string>photos description.</string>
+
+         <key>NSPhotoLibraryAddUsageDescription</key>
+         <string>photos add description.</string>
 </dict>
 </plist>

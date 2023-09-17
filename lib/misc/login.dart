@@ -4,6 +4,9 @@ import 'package:chetu_training/misc/widget/custom_app_bar.dart';
 import 'package:chetu_training/navigation/route_paths.dart';
 import 'package:flutter/material.dart';
 
+final formState = GlobalKey<FormState>();
+
+
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
@@ -15,7 +18,6 @@ class _LoginPageState extends State<LoginPage> {
 
   final TextEditingController userNameTextController = TextEditingController();
   final TextEditingController passwordTextController = TextEditingController();
-  final formState = GlobalKey<FormState>();
 
 
   @override
@@ -33,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return CustomAppBar(title: 'Login',
     child: Form(
-      key: formState,
+      // key: formState,
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
         child: Column(
@@ -89,7 +91,8 @@ class _LoginPageState extends State<LoginPage> {
                 child: Text('Forgot Password',)),
             const SizedBox(height: 20,),
 
-            ElevatedButton(onPressed: () async {
+            ElevatedButton(
+                onPressed: () async {
               if(formState.currentState!.validate()){
               final result = await Navigator.pushNamed(context, RoutePaths.dashboard, arguments: userNameTextController.text);
               print('Result = $result');

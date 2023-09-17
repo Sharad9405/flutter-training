@@ -9,7 +9,7 @@ void main() {
   //   DeviceOrientation.portraitUp,
   //   DeviceOrientation.portraitDown
   // ]);
-
+  // usePathUrlStrategy();
   runApp( const MyApp());
 }
 

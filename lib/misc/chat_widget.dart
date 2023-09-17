@@ -1,3 +1,4 @@
+import 'package:chetu_training/misc/login.dart';
 import 'package:chetu_training/misc/message_view.dart';
 import 'package:chetu_training/misc/widget/app_text.dart';
 import 'package:chetu_training/misc/widget/app_text_field.dart';
@@ -29,6 +30,7 @@ final TextEditingController controller = TextEditingController();
     message: 'Hello Mohit',
     type: 'sender'
   ));
+
     super.initState();
   }
 
@@ -46,6 +48,7 @@ final TextEditingController controller = TextEditingController();
               itemCount: list.length,
               itemBuilder: (context, index){
                 return MessageView(
+                  key: UniqueKey(),
                   uName: list[index].userName,
                   message: list[index].message,
                   type: list[index].type,

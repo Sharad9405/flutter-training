@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
       ),
       body: ListView(
         padding: const EdgeInsets.only(bottom: 50),
+        physics: const ClampingScrollPhysics(),
         children: [
           Container(
             color: Colors.amberAccent.withOpacity(0.2),
@@ -320,6 +321,264 @@ class Home extends StatelessWidget {
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
                 '15. Orientation Builder Example',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.widgetLifecycle),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '16. Widget Lifecycle',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.gridviewExample),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '17. GridView Example',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.linearGradient),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '18. Linear Gradient',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.bottomNavBar),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '19. Bottom Navigation Bar',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.navigationBar),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '20. Navigation Bar',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.navigationDrawer),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '21. Navigation Drawer',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.searchBar),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '22. Search Bar',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.httpExample),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '23. Http Example',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.userLocation),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '24. Fetch User Location',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.imagePicker),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '25. Image Picker',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.googleMap),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '26. Google Map Example',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.flutterAnimation),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '27. Flutter Animation',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
+
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.flutterAnimation2),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '28. Flutter Animation 2',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
