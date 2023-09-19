@@ -587,6 +587,25 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Divider(height: 2, color: Colors.grey,),
+          ),
+          Container(
+            color: Colors.amberAccent.withOpacity(0.2),
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, RoutePaths.firebaseAuth),
+              trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
+              title: const Text(
+                '29. Firebase Auth',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     ));

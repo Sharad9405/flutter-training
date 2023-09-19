@@ -30,4 +30,5 @@ class RoutePaths {
   static const String googleMap = '/googleMap';
   static const String flutterAnimation = '/flutterAnimation';
   static const String flutterAnimation2 = '/flutterAnimation2';
+  static const String firebaseAuth = '/firebaseAuth';
 }

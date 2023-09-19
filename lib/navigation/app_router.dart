@@ -9,6 +9,7 @@ import 'package:chetu_training/misc/custom_widget.dart';
 import 'package:chetu_training/misc/dashboard.dart';
 import 'package:chetu_training/misc/date_formatting.dart';
 import 'package:chetu_training/misc/device_latlong_method_channel.dart';
+import 'package:chetu_training/misc/firebase_auth_example.dart';
 import 'package:chetu_training/misc/flutter_animation.dart';
 import 'package:chetu_training/misc/flutter_animation_2.dart';
 import 'package:chetu_training/misc/functions_with_callback.dart';
@@ -203,7 +204,11 @@ class AppRouter {
           builder: (context) => const FlutterAnimation2(),
           settings: const RouteSettings(name: RoutePaths.flutterAnimation2),
         );
-
+      case RoutePaths.firebaseAuth:
+        return CupertinoPageRoute(
+          builder: (context) => const FirebaseAuthExample(),
+          settings: const RouteSettings(name: RoutePaths.firebaseAuth),
+        );
 
       default:
         return CupertinoPageRoute(

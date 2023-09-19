@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462403554770",
+    "project_id": "my-flutter-firebase-proj-43967",
+    "storage_bucket": "my-flutter-firebase-proj-43967.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462403554770:android:b66ebfac5a3469a8a98c0b",
+        "android_client_info": {
+          "package_name": "com.example.chetu_training"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV1p8VIpr5pWDI9MdnJwxHY51-kzo4rew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
