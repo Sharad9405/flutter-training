@@ -320,7 +320,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.orientationExample),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '15. Orientation Builder Example',
+                '16. Orientation Builder Example',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -340,7 +340,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.widgetLifecycle),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '16. Widget Lifecycle',
+                '17. Widget Lifecycle',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -359,7 +359,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.gridviewExample),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '17. GridView Example',
+                '18. GridView Example',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -379,7 +379,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.linearGradient),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '18. Linear Gradient',
+                '19. Linear Gradient',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -399,7 +399,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.bottomNavBar),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '19. Bottom Navigation Bar',
+                '20. Bottom Navigation Bar',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -419,7 +419,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.navigationBar),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '20. Navigation Bar',
+                '21. Navigation Bar',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -438,7 +438,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.navigationDrawer),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '21. Navigation Drawer',
+                '22. Navigation Drawer',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -458,7 +458,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.searchBar),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '22. Search Bar',
+                '23. Search Bar',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -478,7 +478,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.httpExample),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '23. Http Example',
+                '24. Http Example',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -498,7 +498,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.userLocation),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '24. Fetch User Location',
+                '25. Fetch User Location',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -518,7 +518,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.imagePicker),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '25. Image Picker',
+                '26. Image Picker',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -538,7 +538,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.googleMap),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '26. Google Map Example',
+                '27. Google Map Example',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -558,7 +558,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.flutterAnimation),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '27. Flutter Animation',
+                '28. Flutter Animation',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -578,7 +578,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.flutterAnimation2),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '28. Flutter Animation 2',
+                '29. Flutter Animation 2',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
@@ -597,7 +597,7 @@ class Home extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, RoutePaths.firebaseAuth),
               trailing: const Icon(Icons.arrow_forward_ios_outlined, color: Colors.purple, size: 15,),
               title: const Text(
-                '29. Firebase Auth',
+                '30. Firebase Auth',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w600,
